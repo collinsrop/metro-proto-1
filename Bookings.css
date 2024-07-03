@@ -1,0 +1,118 @@
+body{
+	background-image: url('../background pics/bus\ stop\ pic.jpg');
+	background-position: center no-repeat;
+	background-size: cover;
+	font-family: cursive;
+}
+h1{
+	text-align: center;
+	text-decoration: underline;
+	color: rgb(222, 169, 90);
+	font-size: 40px;
+	margin: 4px;
+}
+.container{
+    width: 90%;
+	height: 800px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: space-between;
+	box-shadow: 10px 7px 30px rgb(141, 120, 92);
+	border-radius: 12px;
+}
+.hidden{
+	display: none;
+}
+h2{
+	text-decoration: overline;
+	text-align: center;
+}
+.searchSection{
+    border-radius: 12px;
+	position: absolute;
+	top: 10%;
+	left: 6.5%;
+	background-color: antiquewhite;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px;
+	height: fit-content;
+	width: 40%;
+}
+#search-time{
+	width: 80%;
+	height: 30px;
+	text-align: center;
+	border-radius: 12px;
+}
+#search-button{
+	width: 60%;
+	border-radius: 12px;
+	height: 40px;
+	text-align: center;
+	font-size: 25px;
+	color: brown;
+	margin-top: 30px;
+}
+
+#bookingForm{
+    border-radius: 12px;
+	position: absolute;
+	top: 10%;
+	right: 6.5%;
+	background-color: blanchedalmond;
+	padding: 15px;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	gap: auto;
+	margin-top: 0;
+	height: fit-content;
+	align-items: center;
+}
+label{
+	color: brown;
+}
+input{
+	border-radius: 12px;
+	width: 70%;
+	height: 20px;
+}
+#print-button{
+	width:50%;
+	border-radius: 12px;
+	height: 30px;
+	text-align: center;
+	font-size: 25px;
+	background-color: brown;
+	margin-top: 10px;
+	align-self: center;
+}
+#print-button:hover{
+	transform: scale(1.2);
+	transition: 2s;
+}
+#bus-list{
+	position: absolute;
+	top: 42%;
+    left: 15%;
+	background-color: blanchedalmond;
+	border-radius: 12px;
+	margin-top: 10px;
+	padding: 10px;
+	
+}
+#ticket{
+	background-color: blanchedalmond;
+	padding: 8px;
+	position:absolute;
+	top: 65%;
+	right: 6.5%;
+	height: fit-content;
+    border-radius: 12px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+}
